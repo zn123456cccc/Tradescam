@@ -4,7 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "pet simulator X", HidePremium = fals
 
 local Tab = Window:MakeTab({
 
-	Name = "Trade scam",	Icon = "rbxassetid://4483345998",
+	Name = "pet simulator X",	Icon = "rbxassetid://4483345998",
 
 	PremiumOnly = false
 
@@ -24,14 +24,15 @@ OrionLib:MakeNotification({
 
 Tab:AddButton({
 
-	Name = "Trade scam (wait 1-5minute)",
+	Name = "Trade scam",
 
 	Callback = function()
 
-      	  loadstring(game:HttpGet("https://raw.githubusercontent.com/PerthEuEu/asdacPetsimx/main/README.md"))();
+      	  55
 
-  	end    
+  	end   
 
 })
 
 OrionLibInit() 
+
